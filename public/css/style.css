@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: cursive;
+    color: blue;
+}
+
+nav {
+    background-color: #333;
+    color: red;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+img {
+    height: 300px;
+    width: 200px;
+}
+
+div {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 20px;
+}

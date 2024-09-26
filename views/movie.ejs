@@ -4,14 +4,19 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="/css/style.css" />
-        <title><%= title %></title>
+        <title><%= movie.title %></title>
     </head>
     <body>
-        <%- include('./includes/nav.ejs') %>
         <header>
             <h1>Movies</h1>
-            <h1><%= title %></h1>
-            <p><%= message %></p>
+            <%- include('./includes/nav.ejs') %>
         </header>
+
+        <div>
+            <h1><%= movie.title %></h1>
+            <p><%= movie.year %></p>
+            <p><%= movie.director %></p>
+            <img src="<%= movie.logo %>" alt="" />
+        </div>
     </body>
 </html>
